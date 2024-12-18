@@ -1,0 +1,118 @@
+/* Estilos gerais */
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, 'Times New Roman';    
+    color: #333;
+}
+#container {
+    width: 90%;
+    margin: 20;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e9f4ff;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Corpo Principal */
+main {
+    padding: 40px 0;
+    margin-bottom: 10px;
+    background-color: #4a9aa5;
+
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+section {
+    margin-bottom: 40px;
+    border-style: black;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #000000;
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Coluna de Notícias e Eventos */
+.noticias,
+.eventos {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    background-color: #e9f4ff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+    transform: translateY(-10px);
+}}
+
+.eventos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.eventos li {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.materia-destaque {
+    clear: both;
+}
+
+.materia-destaque article {
+    background-color: #e9f4ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #e9f4ff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
